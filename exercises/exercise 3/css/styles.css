@@ -1,0 +1,52 @@
+body{
+	background-color: black;
+}
+
+#container {
+	width: 600px;
+	height: 768px;
+	background-color: orange;
+	float: center;
+	margin:auto;
+}
+
+#artist {
+	width: 200px;
+	height: 200px;
+	background-color: #e8b2c6;
+	font-family: Helvetica;
+	font-size: 30px;
+	float: left;
+	
+	
+	
+}
+
+.sidebar {
+	width: 500px;
+	height: 200px;
+	background-color: green;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	border-right: 20px dotted #568301;
+	margin: 10px auto 10px auto;
+}
+
+#sculptor {
+	width: 200px;
+	height: 200px;
+	background-color: #a899cd;
+	color: white;
+	float: left;
+	
+
+}
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background-color: #f8be9e;
+	float: left;
+	
+}

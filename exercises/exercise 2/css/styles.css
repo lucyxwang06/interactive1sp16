@@ -1,0 +1,25 @@
+body {
+	background-color: #FE4352;
+	font-family: 'Montserrat', sans-serif;
+	font-style: bold;
+	color: #f9c400;
+	line-height: 1.5em;
+	letter-spacing: 2em;
+}
+
+h1 {
+	color: white;
+	font-size: 100px;
+	text-align: left;
+	line-height: 1.3em;
+	letter-spacing: 0.2em;
+	font-family: 'Playfair Display', serif;	
+}
+
+h4 {
+	color: #f1e400;
+	font-size: 12px;
+	font-family: Helvetica;
+	text-align: right;
+
+}
