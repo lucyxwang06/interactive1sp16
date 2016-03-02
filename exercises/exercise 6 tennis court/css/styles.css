@@ -1,0 +1,106 @@
+#big{
+	height: 750px;
+	width: 600px;
+	background: white;
+	float: left;
+	z-index: 0;
+}
+
+#top{
+	background: white;
+	float: left;
+	width: 600px;
+	height: 375px;
+	z-index: 1;
+
+}
+
+#tl{
+	width: 90px;
+	height: 365px;
+	float: left;
+	margin-right: 10px;
+	z-index: 2;
+	background: red;
+}
+
+#topcenter{
+	width: 400px;
+	height: 365px;
+	float: left;
+	z-index: 1;
+	background: white;
+}
+
+#tc{
+	width: 370px;
+	height: 140px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	z-index: 2;
+	background: red;
+}
+
+#tcl{
+	width: 180px;
+	height: 215px;
+	float: left;
+	margin-right: 10px;
+	z-index: 2;
+	background: red;
+}
+
+#tcr{
+	width: 180px;
+	height: 215px;
+	float: left;
+	margin-right: 10px;
+	z-index: 2;
+	background: red;
+}
+
+#tr{
+	width: 90px;
+	height: 365px;
+	float: left;
+	z-index: 2;
+	background: red;
+	margin-left: -20px;
+}
+
+#bottom{
+	background: white;
+	float: left;
+	width: 600px;
+	height: 375px;
+	z-index: 1;
+	margin-top: 10px;
+}
+
+#bottomcenter{
+	width: 400px;
+	height: 365px;
+	float: left;
+	z-index: 1;
+	background: white;
+
+}
+#tcb{
+	width: 370px;
+	height: 140px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	z-index: 2;
+	background: red;
+
+}
+
+
+
+
+
+
+
+

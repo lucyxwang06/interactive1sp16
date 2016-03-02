@@ -1,0 +1,14 @@
+#square{
+	background: red;
+	height: 100px;
+	width: 100px;
+	float: left;
+
+}
+
+#white{
+	background: white;
+	height: 100px;
+	width: 100px;
+	float: left;
+}

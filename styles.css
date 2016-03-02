@@ -1,0 +1,70 @@
+
+h1{
+	font-family: 'Old Standard TT', serif;
+	font-weight: 400;
+	font-size: 26pt;
+	color: #fb6043;
+	margin-left: 80px;
+}
+
+h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 13pt;
+	color: #fb6043;
+}
+
+li{
+	font-size: 11pt;
+	margin-left: -40px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	
+}
+
+a:link{
+	color: #fb6043;
+}
+
+a:hover{
+	color:#00cdbb;
+}
+
+a:visited{
+	color:#00cdbb; 
+}
+
+#exercises{
+	height: 180px; 
+	width: 250px;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+
+}
+
+#projects{
+	height: 180px; 
+	width: 250px;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-left: -100px;
+
+}
+
+#ari{
+	height:180px; 
+	width:250px;
+	background: url("ari.png");
+	float: left;
+	
+}
+
+#ari:hover{
+	height:180px; 
+	width:250px;
+	background:url("letsdothis.png");
+	opacity:.5;
+
+}

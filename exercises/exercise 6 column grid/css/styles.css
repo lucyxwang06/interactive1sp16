@@ -1,0 +1,53 @@
+#whole{
+	height: 400px;
+	width: 300px;
+	float:left;
+	background: white;
+	z-index: 0;
+}
+
+#t1{
+	background: red;
+	z-index:1;
+	width: 300px;
+	height: 50px;
+	margin-bottom: 10px;
+	float:left;
+}
+
+#t2{
+	background: red;
+	z-index: 1;
+	width: 300px;
+	height: 20px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#center{
+	background: white;
+	z-index: 0;
+	height: 260px;
+	width: 300px;
+	float: left;
+}
+
+#left{
+	background: red;
+	z-index: 1;
+	height: 250px;
+	width: 93.3333333px;
+	float: left;
+	margin-right: 10px;
+}
+
+#right{
+	background: red;
+	z-index: 1;
+	height: 250px;
+	width: 93.3333333px;
+	float: left;
+	
+}
+
+

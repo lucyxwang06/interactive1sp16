@@ -1,0 +1,146 @@
+body{
+	height: 5450px;
+	width: 1400px;
+}
+
+#fam{
+	height: 990px;
+	width: 1400px;
+	position: fixed;
+	opacity: .45;
+	z-index: 3;
+	margin-top: -150px;
+}
+
+#center{
+	height: 5450px;
+	width: 1400px;
+	margin: auto;
+	
+
+}
+
+#flag1{
+	height: 1633.33333px;
+	width: 1200px;
+	border-radius: 100px 100px 100px 100px;
+	z-index: 0;
+	transform: scale(1.16,1.16);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 130px;
+		
+}
+
+#flag2{
+	height: 1633.33333px;
+	width: 1200px;
+	border-radius: 100px 100px 100px 100px;
+	z-index: 0;
+	-moz-transform: scale(-1, 1);
+	-webkit-transform: scale(-1, 1);
+	-o-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+	transform: scale(1.16,1.16);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -1630px;
+
+
+}
+
+#flag3{
+	height: 1633.33333px;
+	width: 1200px;
+	border-radius: 100px 100px 100px 100px;
+	z-index: 0;
+	transform: scale(1.16,1.16);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -1630px;
+
+}
+
+#blue1{
+	width: 646.153846px;
+	height: 653.333332px;
+	border-radius: 0px 100px 0px 0px;
+	float:right;
+	z-index: 2;
+
+}
+
+
+#underblue{
+	width: 646.153846px;
+	height: 979.999998px;
+	z-index: 0;
+}
+
+
+#striper1f{
+	width: 92.3076923px;
+	height: 979.999998px;
+	z-index: 1;
+	float: left;
+	border-radius: 0px 0px 100px 0px;
+
+}
+
+#stripe1wshort{
+	background: white;
+	width: 92.3076923px;
+	height: 979.999998px;
+	z-index: 1;
+	float: left;
+}
+
+#striper1short{
+	width: 92.3076923px;
+	height: 979.999998px;
+	z-index: 1;
+	float: left;
+}
+
+#striper1{
+	width: 92.3076923px;
+	height: 1633.33333px;
+	z-index: 1;
+	float: left;
+}
+
+#stripe1w{
+	background: white;
+	width: 92.3076923px;
+	height: 1633.33333px;
+	z-index: 1;
+	float: left;
+}
+
+#striper1l{
+	width: 92.3076923px;
+	height: 1633.33333px;
+	z-index: 1;
+	float: left;
+	border-radius: 100px 0px 0px 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
