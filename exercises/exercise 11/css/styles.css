@@ -1,0 +1,39 @@
+@font-face{
+	font-family: 'ArcherPro';
+	src: url("archerprothin.otf");
+}
+
+@font-face{
+	font-family: 'AntiqueOlive';
+	src: url("AntiqueOliveStdBlack.otf");
+}
+
+@font-face{
+	font-family: 'Ehrhardt';
+	src: url("ehrhardtmtstdregular.otf");
+}
+
+#main{
+	font-family: ArcherPro;
+	font-size: 230px;
+	color: pink;
+	text-align: center;
+}
+
+#main2{
+	font-family: ArcherPro;
+	font-size: 100px;
+	color: #c96c84;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#box3{
+	font-family: ArcherPro;
+	font-size: 200px;
+	color: grey;
+	text-align: center;
+	margin-top: 100px;
+}
+
+
