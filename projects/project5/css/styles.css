@@ -1,0 +1,1054 @@
+body{
+	overflow-x:scroll;
+    overflow-y:hidden; 
+	width: 3000px; 
+	height: 660px;
+	background: #f4cdb4;
+}
+
+
+
+#title{
+	font-family: 'Fjalla One',sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #9400b6;
+	font-size: 160pt;
+	line-height: 200px;
+	width: 500px;
+}
+
+ #bull2{
+
+ 	margin-left: 450px;
+ 	margin-top: -765px;
+ 	width:500px;
+ 	height: 200px;
+ 	animation-name:swing;
+	animation-duration: 2.3s; 
+  	animation-iteration-count: infinite;
+  	animation-fill-mode: both;
+  	animation-play-state: running;
+
+ }
+
+ #click{
+ 	width:1300px;
+ 	height: 660px; 
+ 	margin-left: 1300px;
+ 	margin-top:-50px;
+ 	position: absolute;
+ 	 
+ 
+
+ }
+
+ #center{
+ 	height: 350px;
+ 	width: 600px;
+	margin-top: 12.8%;
+	margin-left: 355px;
+	position: absolute;
+	
+ }
+ 
+
+#sit{
+    position: absolute;
+	width: 120px;
+ 	height: 60px;
+    margin-left: 0px;
+ 	text-align: center;
+ 	color: #fa7921;
+ 	font-family: 'Fjalla One',sans-serif;
+ 	font-size: 20pt;
+	font-style: normal;
+	font-weight: 400;
+	background: transparent;
+	border:none;
+	outline: none;
+}
+
+#sit:hover{
+	color: #9400b6;
+}
+
+button#sit:active ~ #boston {     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test {     
+    0% { margin-top: 400px; }
+    100% {margin-top:230px; }
+}
+@-webkit-keyframes test {     
+    0% { margin-top: 400px; } 
+    100% {margin-top: 230px; }
+} 
+
+#boston {
+	position: absolute;
+	margin-top: 400px;
+   	margin-left: -175px;
+    transform:scale(.7,.7);
+    -moz-animation-name: test;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+    
+}
+
+#drop{
+    position: absolute;
+    margin-left: 345px;
+	width: 120px;
+ 	height: 60px;
+ 	text-align: center;
+ 	color: #fa7921;
+ 	font-family: 'Fjalla One',sans-serif;
+ 	font-size: 20pt;
+	font-style: normal;
+	font-weight: 400;
+	background: transparent;
+	border:none;
+	outline: none;
+}
+
+#drop:hover{
+	color:  #9400b6;
+}
+
+button#drop:active ~ #bruss {     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test1 {     
+    0% { margin-top: 260px; }
+    100% {margin-top:80px; }
+}
+@-webkit-keyframes test1 {     
+    0% { margin-top: 260px; } 
+    100% {margin-top: 80px; }
+} 
+
+#bruss {
+	position: absolute;
+	margin-top: 260px;
+   	margin-left: 430px;
+    transform:scale(.35,.35);
+    -moz-animation-name: test1;     
+    -moz-animation-duration: 2s;     
+   	-moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test1;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+    
+    
+}
+
+
+#down{
+	width: 120px;
+    position: absolute;
+ 	height: 60px;
+ 	margin-left: 115px;
+ 	text-align: center;
+ 	color: #fa7921;
+ 	font-family: 'Fjalla One',sans-serif;
+ 	font-size: 20pt;
+	font-style: normal;
+	font-weight: 400;
+	background: transparent;
+	border:none;
+	outline: none;
+}
+
+#down:hover{
+	color: #9400b6;
+}
+
+button#down:active ~ #earl {     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test2 {     
+    0% { margin-top: -770px; }
+    100% {margin-top: -630px; }
+}
+@-webkit-keyframes test2 {     
+    0% { margin-top: -770px; } 
+    100% {margin-top: -630px; }
+} 
+
+#earl {
+	position: absolute;
+	margin-top: -750px;
+   	margin-left: 120px;
+    transform:scale(.24,.24);
+    -moz-animation-name: test2;     
+    -moz-animation-duration: 2s;     
+   	-moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test2;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+    
+    
+}
+
+#come{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 230px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#come:hover{
+    color: #9400b6;
+}
+
+button#come:active ~ #arid {     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test3 {     
+    0% { margin-top: 5px; }
+    100% {margin-top: -240px; }
+}
+@-webkit-keyframes test3 {     
+    0% { margin-top: 5px; } 
+    100% {margin-top: -240px; }
+} 
+
+#arid {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 260px;
+    transform:scale(.35,.35);
+    -moz-animation-name: test3;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test3;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+    
+    
+}
+
+#walk{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 460px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#walk:hover{
+    color: #9400b6;
+}
+
+button#walk:active ~ #bulld {     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test4 {     
+    0% { margin-top: 200px; }
+    100% {margin-top: 80px; }
+}
+@-webkit-keyframes test4 {     
+    0% { margin-top: 200px; } 
+    100% {margin-top: 80px; }
+} 
+
+#bulld {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -610px;
+    transform:scale(.35,.35);
+    -moz-animation-name: test4;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test4;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+    
+    
+}
+
+#shake{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 60px;
+    margin-top: 80px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#shake:hover{
+    color: #9400b6;
+}
+
+button#shake:active ~ #bran {     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test5 {     
+    0% { margin-top: -545px; }
+    100% {margin-top: -380px; }
+}
+@-webkit-keyframes test5 {     
+    0% { margin-top: -545px; } 
+    100% {margin-top: -380px; }
+} 
+
+#bran {
+    position: absolute;
+    margin-top: -545px;
+    margin-left: 610px;
+    transform:scale(.35,.35);
+    -moz-animation-name: test5;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test5;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+    
+    
+}
+
+#bath{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 180px;
+    margin-top: 80px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#bath:hover{
+    color: #9400b6;
+}
+
+button#bath:active ~ #cav {     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test6 {     
+    0% { margin-top: -430px; }
+    100% {margin-top: -315px; }
+}
+@-webkit-keyframes test6 {     
+    0% { margin-top: -430px; } 
+    100% {margin-top: -315px; }
+} 
+
+#cav {
+    position: absolute;
+    margin-top: -430px;
+    margin-left: -270px;
+    transform:scale(.52,.52);
+    -moz-animation-name: test6;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test6;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+    
+    
+}
+
+#stay{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 290px;
+    margin-top: 80px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#stay:hover{
+    color: #9400b6;
+}
+
+button#stay:active ~ #long {     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test7 {     
+    0% { margin-top: 355px; }
+    100% {margin-top: 235px; }
+}
+@-webkit-keyframes test7 {     
+    0% { margin-top: 355px; } 
+    100% {margin-top: 235px; }
+} 
+
+#long {
+    position: absolute;
+    margin-top: 355px;
+    margin-left: 640px;
+    transform:scale(.4,.4);
+    -moz-animation-name: test7;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test7;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+        
+}
+
+#roll{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 405px;
+    margin-top: 80px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#roll:hover{
+    color: #9400b6;
+}
+
+button#roll:active ~ #tuna2{     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test8 {     
+    0% { margin-top: -552px; }
+    100% {margin-top: -400px; }
+}
+@-webkit-keyframes test8 {     
+    0% { margin-top: -552px; } 
+    100% {margin-top: -400px; }
+} 
+
+#tuna2 {
+    position: absolute;
+    margin-top: -552px;
+    margin-left: -455px;
+    transform:scale(.3,.3);
+    -moz-animation-name: test8;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test8;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+        
+}
+
+#sleep{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 405px;
+    margin-top: 240px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#sleep:hover{
+    color: #9400b6;
+}
+
+button#sleep:active ~ #white{     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test9 {     
+    0% { margin-top: -17px; }
+    100% {margin-top: -160px; }
+}
+@-webkit-keyframes test9 {     
+    0% { margin-top: -17px; } 
+    100% {margin-top: -160px; }
+} 
+
+#white {
+    position: absolute;
+    margin-top: -17px;
+    margin-left: -920px;
+    transform:scale(.16,.16);
+    -moz-animation-name: test9;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test9;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+        
+}
+
+#good{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 0px;
+    margin-top: 160px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#good:hover{
+    color: #9400b6;
+}
+
+button#good:active ~ #pugglass{     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test10 {     
+    0% { margin-top: -630px; }
+    100% {margin-top: -500px; }
+}
+@-webkit-keyframes test10 {     
+    0% { margin-top: -630px; } 
+    100% {margin-top: -500px; }
+} 
+
+#pugglass {
+    position: absolute;
+    margin-top: -630px;
+    margin-left: 320px;
+    transform:scale(.22,.22);
+    -moz-animation-name: test10;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test10;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+        
+}
+
+#potty{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 120px;
+    margin-top: 160px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#potty:hover{
+    color: #9400b6;
+}
+
+button#potty:active ~ #smallw{     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test11 {     
+    0% { margin-top: -380px; }
+    100% {margin-top: -260px; }
+}
+@-webkit-keyframes test11{     
+    0% { margin-top: -380px; } 
+    100% {margin-top: -260px; }
+} 
+
+#smallw {
+    position: absolute;
+    margin-top: -380px;
+    margin-left: -430px;
+    transform:scale(.5,.5);
+    -moz-animation-name: test11;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test11;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+        
+}
+
+#quiet{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 230px;
+    margin-top: 160px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#quiet:hover{
+    color: #9400b6;
+}
+
+button#quiet:active ~ #brown{     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test12 {     
+    0% { margin-top: 360px; }
+    100% {margin-top: 240px; }
+}
+@-webkit-keyframes test12{     
+    0% { margin-top: 360px; } 
+    100% {margin-top: 240px; }
+} 
+
+#brown {
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 60px;
+    transform:scale(.37,.37);
+    -moz-animation-name: test12;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test12;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+        
+}
+
+#leave{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 345px;
+    margin-top: 160px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#leave:hover{
+    color: #9400b6;
+}
+
+button#leave:active ~ #dach{     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test13{     
+    0% { margin-top: 330px; }
+    100% {margin-top: 180px; }
+}
+@-webkit-keyframes test13{     
+    0% { margin-top: 330px; } 
+    100% {margin-top: 180px; }
+} 
+
+#dach {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 120px;
+    transform:scale(.37,.37);
+    -moz-animation-name: test13;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test13;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+        
+}
+
+#fetch{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 460px;
+    margin-top: 160px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#fetch:hover{
+    color: #9400b6;
+}
+
+button#fetch:active ~ #donny{     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test14{     
+    0% { margin-top: -480px; }
+    100% {margin-top: -340px; }
+}
+@-webkit-keyframes test14{     
+    0% { margin-top: -480px; } 
+    100% {margin-top: -340px; }
+} 
+
+#donny {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 167px;
+    transform:scale(.25,.25);
+    -moz-animation-name: test14;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test14;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+        
+}
+
+#speak{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 60px;
+    margin-top: 240px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#speak:hover{
+    color: #9400b6;
+}
+
+button#speak:active ~ #shiba2{     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test15{     
+    0% { margin-top: -570px; }
+    100% {margin-top: -450px; }
+}
+@-webkit-keyframes test15{     
+    0% { margin-top: -570px; } 
+    100% {margin-top: -450px; }
+} 
+
+#shiba2 {
+    position: absolute;
+    margin-top: -570px;
+    margin-left: 50px;
+    transform:scale(.3,.3);
+    -moz-animation-name: test15;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test15;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+        
+}
+
+#high{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 180px;
+    margin-top: 240px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#high:hover{
+    color: #9400b6;
+}
+
+button#high:active ~ #uni{     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test16{     
+    0% { margin-top: 420px; }
+    100% {margin-top: 250px; }
+}
+@-webkit-keyframes test16{     
+    0% { margin-top: 420px; } 
+    100% {margin-top: 250px; }
+} 
+
+#uni {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 30px;
+    transform:scale(.9,.9);
+    -moz-animation-name: test16;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test16;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+        
+}
+
+#bad{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: 290px;
+    margin-top: 240px;
+    text-align: center;
+    color: #fa7921;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+#bad:hover{
+    color: #9400b6;
+}
+
+button#bad:active ~ #sun{     
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running; 
+}  
+@-moz-keyframes test17{     
+    0% { margin-top: -520px; }
+    100% {margin-top: -370px; }
+}
+@-webkit-keyframes test17{     
+    0% { margin-top: -520px; } 
+    100% {margin-top: -370px; }
+} 
+
+#sun {
+    position: absolute;
+    margin-top: -520px;
+    margin-left: -305px;
+    transform:scale(.4,.4);
+    -moz-animation-name: test17;     
+    -moz-animation-duration: 2s;     
+    -moz-animation-play-state: paused;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-name: test17;     
+    -webkit-animation-duration: 2s;     
+    -webkit-animation-play-state: paused;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+        
+}
+
+#cool{
+    margin-top: -165px;
+    margin-left: 2600px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
